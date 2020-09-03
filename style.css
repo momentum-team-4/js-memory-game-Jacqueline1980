@@ -1,0 +1,19 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: fantasy;
+}
+h1 {
+    align-content: center;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+}
+
+individualCards {
+    display: inline-block;
+    grid-column: 25% 25%;
+    grid-row: 25% 25% 25%;
+}

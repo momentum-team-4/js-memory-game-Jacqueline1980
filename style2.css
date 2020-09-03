@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
+body {
+    height: 100vh;
+    display: flex;
+    background-color: khaki;
+}
+.memoryGame {
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.memoryCard {
+    width: 25%;
+    height: 33.33%;
+    margin: 5px;
+    position: relative;
+}
+.front, 
+.back {
+    width: 100%;
+    height: 100%;
+
+}
